@@ -1,0 +1,57 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+marquee {
+    background-color: black;
+    color: white;
+}
+
+.car {
+    display: flex;
+    padding: 4rem;
+}
+
+table td, tr th {
+    border: 2px solid;
+}
+
+#details img {
+    height: 120px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+/* Make each row of images display side-by-side */
+.f, .s, .T {
+    display: flex;
+    gap: 1rem;
+}
+
+.f img, .s img, .T img {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+}
+.cont{
+    margin-top: 5rem;
+    border:4px solid;
+    border-radius: 30%;
+    width: 30rem;
+    padding: 2rem;
+}
